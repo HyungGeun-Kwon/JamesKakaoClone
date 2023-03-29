@@ -11,7 +11,7 @@
         <Setter Property="Background" Value="blue"/>
         <Setter Property="Template">
             <Setter.Value>
-                <ControlTemplate TargetType="{x:Type views:TaskBarButton}"> <!-- 한번 더 -->
+                <ControlTemplate TargetType="{x:Type views:TaskBarButton}"> <!-- 두번번 더 -->
                     <Border Background="{TemplateBinding Background}"
                             BorderBrush="{TemplateBinding BorderBrush}"
                             BorderThickness="{TemplateBinding BorderThickness}">
