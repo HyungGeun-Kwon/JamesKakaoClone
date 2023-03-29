@@ -9,5 +9,10 @@ namespace Kakao1.Forms.Views
         {
             DefaultStyleKeyProperty.OverrideMetadata(typeof(Kakao1Window), new FrameworkPropertyMetadata(typeof(Kakao1Window)));
         }
+        public Kakao1Window()
+        {
+            // WindowStyle = WindowStyle.None;
+            // AllowsTransparency = true;
+        }
     }
 }

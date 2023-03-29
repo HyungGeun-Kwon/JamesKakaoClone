@@ -5,6 +5,8 @@
     xmlns:core="clr-namespace:Kakao1.Core.ViewServices;assembly=Kakao1.Core"
     xmlns:regionName="clr-namespace:Kakao1.Core.Names;assembly=Kakao1.Core">
     <Style TargetType="{x:Type views:Kakao1Window}">
+        <Setter Property="SizeToContent" Value="WidthAndHeight"/>
+        <Setter Property="Background" Value="#FFFFFF"/>
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type views:Kakao1Window}">

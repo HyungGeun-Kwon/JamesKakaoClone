@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9A6D06B5-A5C5-48A2-BB58-358CB323F820}</ProjectGuid>
+    <ProjectGuid>{217EF35B-2309-4A5D-A3C5-7901A6D5345B}</ProjectGuid>
     <OutputType>library</OutputType>
-    <RootNamespace>Kakao1.Login</RootNamespace>
-    <AssemblyName>Kakao1.Login</AssemblyName>
+    <RootNamespace>Kakao1.LayoutSupport</RootNamespace>
+    <AssemblyName>Kakao1.LayoutSupport</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -62,11 +62,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Compile Include="Local\ViewModels\LoginContentViewModel.cs" />
-    <Compile Include="UI\Views\LoginContent.cs">
+    <Compile Include="UI\Units\TaskBarButton.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Themes\Views\LoginContent.xaml">
+    <Page Include="Themes\Views\TaskBarButton.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -100,11 +99,9 @@
       <Project>{94E785CC-EE90-41B7-8478-561250E158A0}</Project>
       <Name>Kakao1.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Kakao1.LayoutSupport\Kakao1.LayoutSupport.csproj">
-      <Project>{217ef35b-2309-4a5d-a3c5-7901a6d5345b}</Project>
-      <Name>Kakao1.LayoutSupport</Name>
-    </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Local\ViewModels\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

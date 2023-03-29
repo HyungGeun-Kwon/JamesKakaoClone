@@ -5,6 +5,7 @@ namespace Kakao1.Core.ViewServices
 {
     public class PrismWindow : Window
     {
+        private bool _isFirstLoad = true;
         public PrismWindow()
         {
             ViewModelLocationProvider.AutoWireViewModelChanged(this, OnAutoWireViewModelChanged);
@@ -15,7 +16,8 @@ namespace Kakao1.Core.ViewServices
         {
             if (DataContext is ILoadable loadable)
             {
-                loadable.OnLoaded(this);
+                loadable.OnLoaded(this, _isFirstLoad);
+                _isFirstLoad = false;
             }
         }
 
