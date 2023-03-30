@@ -1,9 +1,9 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
 
-namespace Kakao1.LayoutSupport.UI.Units
+namespace Kakao1.Login2.UI.Views
 {
-    public class TaskBarButton : Button
+    public class TaskBarButton : Control
     {
         static TaskBarButton()
         {

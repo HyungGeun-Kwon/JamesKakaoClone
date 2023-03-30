@@ -3,6 +3,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:views="clr-namespace:Kakao1.Forms.Views"
     xmlns:core="clr-namespace:Kakao1.Core.ViewServices;assembly=Kakao1.Core"
+    xmlns:Test="clr-namespace:Kakao1.LayoutSupport.UI.Units;assembly=Kakao1.LayoutSupport"
     xmlns:regionName="clr-namespace:Kakao1.Core.Names;assembly=Kakao1.Core">
     <Style TargetType="{x:Type views:Kakao1Window}">
         <Setter Property="SizeToContent" Value="WidthAndHeight"/>
@@ -13,7 +14,7 @@
                     <Border Background="{TemplateBinding Background}"
                             BorderBrush="{TemplateBinding BorderBrush}"
                             BorderThickness="{TemplateBinding BorderThickness}">
-                            <core:PrismRegion RegionName='{x:Static regionName:RegionNameManager.MainRegion}'/>
+                        <core:PrismRegion RegionName='{x:Static regionName:RegionNameManager.MainRegion}'/>
                     </Border>
                 </ControlTemplate>
             </Setter.Value>

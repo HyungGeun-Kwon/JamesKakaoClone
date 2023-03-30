@@ -1,9 +1,10 @@
-﻿using System.Windows;
+﻿using Kakao1.Core.ViewServices;
+using System.Windows;
 using System.Windows.Controls;
 
-namespace Kakao1.LayoutSupport.UI.Units
+namespace Kakao1.Login5.UI.Views
 {
-    public class TaskBarButton : Button
+    public class TaskBarButton : Control
     {
         static TaskBarButton()
         {
