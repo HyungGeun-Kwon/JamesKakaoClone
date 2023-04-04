@@ -54,7 +54,7 @@
                                 Margin="10"
                                 Padding="8 4 8 4"
                                 HorizontalAlignment="Left"
-                                Command="{Binding LoginCommand}"/>
+                                Command="{Binding BtnLoginClickCommand}"/>
                         </StackPanel>
                     </Border>
                 </ControlTemplate>

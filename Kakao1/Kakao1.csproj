@@ -141,6 +141,14 @@
       <Project>{A5DAB54C-D8D0-49AB-BD7F-EB274D4BE81F}</Project>
       <Name>Kakao1.Forms</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Kakao1.Friends.Birth\Kakao1.Friends.Birth.csproj">
+      <Project>{85eab65c-5a6a-4718-9292-b92712be0c89}</Project>
+      <Name>Kakao1.Friends.Birth</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Kakao1.Friends.Favorites\Kakao1.Friends.Favorites.csproj">
+      <Project>{f94d84a9-2fa0-4de1-a21d-14c9392b4f47}</Project>
+      <Name>Kakao1.Friends.Favorites</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Kakao1.Friends\Kakao1.Friends.csproj">
       <Project>{8DBECD11-723A-432D-9547-E6C55E949F84}</Project>
       <Name>Kakao1.Friends</Name>

@@ -108,6 +108,18 @@
       <Project>{94E785CC-EE90-41B7-8478-561250E158A0}</Project>
       <Name>Kakao1.Core</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Kakao1.Friends.Birth\Kakao1.Friends.Birth.csproj">
+      <Project>{85eab65c-5a6a-4718-9292-b92712be0c89}</Project>
+      <Name>Kakao1.Friends.Birth</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Kakao1.Friends\Kakao1.Friends.csproj">
+      <Project>{8dbecd11-723a-432d-9547-e6c55e949f84}</Project>
+      <Name>Kakao1.Friends</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Kakao1.LayoutSupport\Kakao1.LayoutSupport.csproj">
+      <Project>{21fbf3bc-38d6-4864-b075-47985cbbc987}</Project>
+      <Name>Kakao1.LayoutSupport</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Page Include="Themes\Generic.xaml">

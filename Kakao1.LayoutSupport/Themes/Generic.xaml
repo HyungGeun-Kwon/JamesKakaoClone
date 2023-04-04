@@ -4,5 +4,6 @@
         <ResourceDictionary Source="/Kakao1.LayoutSupport;component/Themes/Units/TaskBarButton.xaml"/>
         <ResourceDictionary Source="/Kakao1.LayoutSupport;component/Themes/Units/PlaceholderTextBox.xaml"/>
         <ResourceDictionary Source="/Kakao1.LayoutSupport;component/Themes/Units/PlaceholderPasswordBox.xaml"/>
+        <ResourceDictionary Source="/Kakao1.LayoutSupport;component/Themes/Units/FriendsBox.xaml"/>
     </ResourceDictionary.MergedDictionaries>
 </ResourceDictionary>

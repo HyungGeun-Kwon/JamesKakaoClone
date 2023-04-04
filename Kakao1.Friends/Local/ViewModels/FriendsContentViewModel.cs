@@ -14,8 +14,6 @@ namespace Kakao1.Friends.Local.ViewModels
         private IRegionManager _regionManager;
         private IContainerProvider _containerProvider;
 
-        public ICommand BtnFriendsClickCommand => new DelegateCommand(OnBtnFriendsClick);
-
         public FriendsContentViewModel(IRegionManager regionManager, IContainerProvider containerProvider)
         {
             _regionManager = regionManager;
@@ -23,17 +21,5 @@ namespace Kakao1.Friends.Local.ViewModels
         }
 
         public void OnLoaded(FrameworkElement prismContent, bool isFirst) { }
-
-        private void OnBtnFriendsClick()
-        {
-            IRegion region = _regionManager.Regions[RegionNameManager.MainRegion];
-            IViewable content = _containerProvider.Resolve<IViewable>(ContentNameManager.MainContent);
-
-            if (!region.Views.Contains(content))
-            {
-                region.Add(content);
-            }
-            region.Activate(content);
-        }
     }
 }

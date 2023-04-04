@@ -4,7 +4,7 @@
     xmlns:views="clr-namespace:Kakao1.Main.UI.Views"
     xmlns:units="clr-namespace:Kakao1.Main.UI.Units">
     <Style TargetType="{x:Type units:VerticalMenumListItem}">
-        <Setter Property="Background" Value="Yellow"/>
+        <Setter Property="Background" Value="White"/>
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type units:VerticalMenumListItem}">

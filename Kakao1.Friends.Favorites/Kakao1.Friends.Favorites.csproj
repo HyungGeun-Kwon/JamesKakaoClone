@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A5DAB54C-D8D0-49AB-BD7F-EB274D4BE81F}</ProjectGuid>
+    <ProjectGuid>{F94D84A9-2FA0-4DE1-A21D-14C9392B4F47}</ProjectGuid>
     <OutputType>library</OutputType>
-    <RootNamespace>Kakao1.Forms</RootNamespace>
-    <AssemblyName>Kakao1.Forms</AssemblyName>
+    <RootNamespace>Kakao1.Friends.Favorites</RootNamespace>
+    <AssemblyName>Kakao1.Friends.Favorites</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -30,24 +30,6 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
-    <DebugSymbols>true</DebugSymbols>
-    <OutputPath>bin\x64\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <DebugType>full</DebugType>
-    <PlatformTarget>x64</PlatformTarget>
-    <LangVersion>7.3</LangVersion>
-    <ErrorReport>prompt</ErrorReport>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
-    <OutputPath>bin\x64\Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
-    <Optimize>true</Optimize>
-    <DebugType>pdbonly</DebugType>
-    <PlatformTarget>x64</PlatformTarget>
-    <LangVersion>7.3</LangVersion>
-    <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Xaml.Behaviors, Version=1.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
@@ -80,11 +62,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Compile Include="Local\ViewModels\Kakao1ViewModel.cs" />
-    <Compile Include="UI\Views\Kakao1Window.cs">
+    <Compile Include="UI\Units\FavoriteBoxItem.cs" />
+    <Compile Include="UI\Units\FavoriteBox.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Themes\Views\Kakao1Window.xaml">
+    <Page Include="Themes\Units\FavoriteBoxItem.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -118,22 +100,11 @@
       <Project>{94E785CC-EE90-41B7-8478-561250E158A0}</Project>
       <Name>Kakao1.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Kakao1.Friends.Birth\Kakao1.Friends.Birth.csproj">
-      <Project>{85eab65c-5a6a-4718-9292-b92712be0c89}</Project>
-      <Name>Kakao1.Friends.Birth</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Kakao1.Friends\Kakao1.Friends.csproj">
-      <Project>{8dbecd11-723a-432d-9547-e6c55e949f84}</Project>
-      <Name>Kakao1.Friends</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Kakao1.LayoutSupport\Kakao1.LayoutSupport.csproj">
-      <Project>{21fbf3bc-38d6-4864-b075-47985cbbc987}</Project>
+      <Project>{21FBF3BC-38D6-4864-B075-47985CBBC987}</Project>
       <Name>Kakao1.LayoutSupport</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Kakao1.Login\Kakao1.Login.csproj">
-      <Project>{9A6D06B5-A5C5-48A2-BB58-358CB323F820}</Project>
-      <Name>Kakao1.Login</Name>
-    </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

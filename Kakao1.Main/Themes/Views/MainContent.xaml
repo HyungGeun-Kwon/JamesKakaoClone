@@ -6,7 +6,7 @@
     xmlns:names="clr-namespace:Kakao1.Core.Names;assembly=Kakao1.Core"
     xmlns:units="clr-namespace:Kakao1.Main.UI.Units">
     <Style TargetType="{x:Type views:MainContent}">
-        <Setter Property="Background" Value="Yellow"/>
+        <Setter Property="Background" Value="White"/>
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type views:MainContent}">

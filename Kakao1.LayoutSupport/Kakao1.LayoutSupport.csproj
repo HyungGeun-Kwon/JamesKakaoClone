@@ -53,6 +53,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Compile Include="UI\Units\FriendsBox.cs" />
     <Compile Include="UI\Units\PlaceholderPasswordBox.cs" />
     <Compile Include="UI\Units\PlaceholderTextBox.cs" />
     <Compile Include="UI\Units\TaskBarButton.cs">
@@ -63,6 +64,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Themes\Units\PlaceholderTextBox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Themes\Units\FriendsBox.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
